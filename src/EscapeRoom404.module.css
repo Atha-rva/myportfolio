@@ -1,0 +1,61 @@
+/* src/components/EscapeRoom404.module.css */
+.escapeRoom {
+  background: #0a0a0a;
+  color: #00ff00;
+  font-family: monospace;
+  text-align: center;
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.door {
+  font-size: 100px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.door:hover {
+  transform: scale(1.1);
+}
+
+.clue {
+  opacity: 0.5;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.keyEntry {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.keyInput {
+  background: black;
+  color: lime;
+  border: 1px solid lime;
+  padding: 10px;
+  font-family: monospace;
+  min-width: 250px;
+}
+
+.unlockButton {
+  background: black;
+  color: lime;
+  border: 1px solid lime;
+  padding: 10px 20px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.unlockButton:hover {
+  background: lime;
+  color: black;
+}
